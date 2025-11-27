@@ -1,1 +1,371 @@
 -5 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 3 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 3 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 3 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 3 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 5 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 5 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 5 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 5 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 3 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 3 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 3 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 3 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 5 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 5 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 5 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 5 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --dns-addr 1.1.1.1 --dns-port 53
+-5 --dns-addr 1.0.0.1 --dns-port 53
+-5 --dns-addr 94.140.14.14 --dns-port 53
+-5 --dns-addr 94.140.15.15 --dns-port 53
+-5 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --dns-addr 1.1.1.1 --dns-port 53
+-9 --dns-addr 1.0.0.1 --dns-port 53
+-9 --dns-addr 94.140.14.14 --dns-port 53
+-9 --dns-addr 94.140.15.15 --dns-port 53
+-9 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+--set-ttl 3 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+--set-ttl 3 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+--set-ttl 3 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+--set-ttl 3 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+--set-ttl 5 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+--set-ttl 5 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+--set-ttl 5 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+--set-ttl 5 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 3
+-5 --set-ttl 5
+-9 --set-ttl 3
+-9 --set-ttl 5
+--set-ttl 3
+--set-ttl 5
+-5
+-9
+-5 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 3 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 3 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 3 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 3 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 5 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 5 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 5 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 5 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 3 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 3 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 3 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 3 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 5 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 5 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 5 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 5 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 3 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 3 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 3 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 3 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 5 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 5 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 5 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 5 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --dns-addr 1.1.1.1 --dns-port 53
+-1 --dns-addr 1.0.0.1 --dns-port 53
+-1 --dns-addr 94.140.14.14 --dns-port 53
+-1 --dns-addr 94.140.15.15 --dns-port 53
+-1 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 3
+-1 --set-ttl 5
+-1
+-1 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 3 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 3 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 3 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 3 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 5 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 5 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 5 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 5 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 3 --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 3 --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 3 --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 3 --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 5 --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 5 --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 5 --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 5 --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 3 --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 3 --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 3 --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 3 --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 5 --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 5 --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 5 --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 5 --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 3 --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 3 --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 3 --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 3 --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 5 --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 5 --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 5 --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 5 --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 3 --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 3 --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 3 --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 3 --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 5 --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 5 --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 5 --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 5 --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 3 --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 3 --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 3 --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 3 --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 5 --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 5 --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 5 --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 5 --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 3 --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 3 --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 3 --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 3 --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 5 --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 5 --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 5 --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 5 --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --wrong-chksum
+-5 --wrong-seq
+-9 --wrong-chksum
+-9 --wrong-seq
+-1 --wrong-chksum
+-1 --wrong-seq
+-5 --wrong-chksum --wrong-seq
+-9 --wrong-chksum --wrong-seq
+-1 --wrong-chksum --wrong-seq
+-5 --set-ttl 3 --wrong-chksum --wrong-seq
+-5 --set-ttl 5 --wrong-chksum --wrong-seq
+-9 --set-ttl 3 --wrong-chksum --wrong-seq
+-9 --set-ttl 5 --wrong-chksum --wrong-seq
+-1 --set-ttl 3 --wrong-chksum --wrong-seq
+-1 --set-ttl 5 --wrong-chksum --wrong-seq
+-5 --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 3 --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 5 --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 2 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 2 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 2 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 2 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 4 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 4 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 4 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 4 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 6 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 6 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 6 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 6 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 7 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 7 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 7 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 7 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 8 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 8 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 8 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 8 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --set-ttl 10 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --set-ttl 10 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --set-ttl 10 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --set-ttl 10 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 2 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 2 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 2 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 2 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 4 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 4 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 4 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 4 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 6 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 6 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 6 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 6 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 7 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 7 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 7 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 7 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 8 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 8 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 8 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 8 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --set-ttl 10 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --set-ttl 10 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --set-ttl 10 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --set-ttl 10 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 2 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 2 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 2 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 2 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 4 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 4 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 4 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 4 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 6 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 6 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 6 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 6 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 7 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 7 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 7 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 7 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 8 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 8 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 8 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 8 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --set-ttl 10 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --set-ttl 10 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --set-ttl 10 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --set-ttl 10 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --auto-ttl --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --auto-ttl --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --auto-ttl --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --auto-ttl --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --auto-ttl --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --auto-ttl --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --auto-ttl --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --auto-ttl --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --auto-ttl --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --auto-ttl --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --auto-ttl --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --auto-ttl --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --auto-ttl --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --auto-ttl --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --auto-ttl --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --auto-ttl --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --auto-ttl --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --auto-ttl --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --auto-ttl --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --auto-ttl --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-5 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-5 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-5 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-5 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --auto-ttl --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --auto-ttl --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --auto-ttl --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --auto-ttl --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --auto-ttl --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --auto-ttl --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --auto-ttl --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --auto-ttl --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-9 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-9 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-9 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-9 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --auto-ttl --wrong-chksum --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --auto-ttl --wrong-chksum --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --auto-ttl --wrong-chksum --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --auto-ttl --wrong-chksum --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --auto-ttl --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --auto-ttl --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --auto-ttl --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --auto-ttl --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
+-1 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
+-1 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
+-1 --auto-ttl --wrong-chksum --wrong-seq --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+--set-ttl 2
+--set-ttl 4
+--set-ttl 6
+--set-ttl 7
+--set-ttl 8
+--set-ttl 10
+--auto-ttl
+--wrong-chksum
+--wrong-seq
+--wrong-chksum --wrong-seq
+--auto-ttl --wrong-chksum
+--auto-ttl --wrong-seq
+--auto-ttl --wrong-chksum --wrong-seq
