@@ -2,7 +2,7 @@
 DPIBlocker
 
 
-#Kurulum videosu
+# Kurulum videosu
 
 https://youtu.be/CaVf2DZIAE4
 
