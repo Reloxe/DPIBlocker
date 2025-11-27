@@ -2,6 +2,7 @@
 -5 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
 -5 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
 -5 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
+-1 --dns-addr 1.1.1.1 --dns-port 53
 -5 --set-ttl 3 --dns-addr 1.1.1.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1111 --dnsv6-port 53
 -5 --set-ttl 3 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
 -5 --set-ttl 3 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
@@ -90,7 +91,6 @@
 -1 --set-ttl 5 --dns-addr 1.0.0.1 --dns-port 53 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 53
 -1 --set-ttl 5 --dns-addr 94.140.14.14 --dns-port 53 --dnsv6-addr 2a10:50c0::ad1:ff --dnsv6-port 53
 -1 --set-ttl 5 --dns-addr 94.140.15.15 --dns-port 53 --dnsv6-addr 2a10:50c0::ad2:ff --dnsv6-port 53
--1 --dns-addr 1.1.1.1 --dns-port 53
 -1 --dns-addr 1.0.0.1 --dns-port 53
 -1 --dns-addr 94.140.14.14 --dns-port 53
 -1 --dns-addr 94.140.15.15 --dns-port 53
@@ -369,3 +369,105 @@
 --auto-ttl --wrong-chksum
 --auto-ttl --wrong-seq
 --auto-ttl --wrong-chksum --wrong-seq
+-5 --set-ttl 2
+-5 --set-ttl 4
+-5 --set-ttl 6
+-5 --set-ttl 7
+-5 --set-ttl 8
+-5 --set-ttl 10
+-9 --set-ttl 2
+-9 --set-ttl 4
+-9 --set-ttl 6
+-9 --set-ttl 7
+-9 --set-ttl 8
+-9 --set-ttl 10
+-1 --set-ttl 2
+-1 --set-ttl 4
+-1 --set-ttl 6
+-1 --set-ttl 7
+-1 --set-ttl 8
+-1 --set-ttl 10
+-5 --set-ttl 2 --wrong-chksum
+-5 --set-ttl 2 --wrong-seq
+-5 --set-ttl 4 --wrong-chksum
+-5 --set-ttl 4 --wrong-seq
+-5 --set-ttl 6 --wrong-chksum
+-5 --set-ttl 6 --wrong-seq
+-5 --set-ttl 7 --wrong-chksum
+-5 --set-ttl 7 --wrong-seq
+-5 --set-ttl 8 --wrong-chksum
+-5 --set-ttl 8 --wrong-seq
+-5 --set-ttl 10 --wrong-chksum
+-5 --set-ttl 10 --wrong-seq
+-5 --set-ttl 2 --wrong-chksum --wrong-seq
+-5 --set-ttl 4 --wrong-chksum --wrong-seq
+-5 --set-ttl 6 --wrong-chksum --wrong-seq
+-5 --set-ttl 7 --wrong-chksum --wrong-seq
+-5 --set-ttl 8 --wrong-chksum --wrong-seq
+-5 --set-ttl 10 --wrong-chksum --wrong-seq
+-9 --set-ttl 2 --wrong-chksum
+-9 --set-ttl 2 --wrong-seq
+-9 --set-ttl 4 --wrong-chksum
+-9 --set-ttl 4 --wrong-seq
+-9 --set-ttl 6 --wrong-chksum
+-9 --set-ttl 6 --wrong-seq
+-9 --set-ttl 7 --wrong-chksum
+-9 --set-ttl 7 --wrong-seq
+-9 --set-ttl 8 --wrong-chksum
+-9 --set-ttl 8 --wrong-seq
+-9 --set-ttl 10 --wrong-chksum
+-9 --set-ttl 10 --wrong-seq
+-9 --set-ttl 2 --wrong-chksum --wrong-seq
+-9 --set-ttl 4 --wrong-chksum --wrong-seq
+-9 --set-ttl 6 --wrong-chksum --wrong-seq
+-9 --set-ttl 7 --wrong-chksum --wrong-seq
+-9 --set-ttl 8 --wrong-chksum --wrong-seq
+-9 --set-ttl 10 --wrong-chksum --wrong-seq
+-1 --set-ttl 2 --wrong-chksum
+-1 --set-ttl 2 --wrong-seq
+-1 --set-ttl 4 --wrong-chksum
+-1 --set-ttl 4 --wrong-seq
+-1 --set-ttl 6 --wrong-chksum
+-1 --set-ttl 6 --wrong-seq
+-1 --set-ttl 7 --wrong-chksum
+-1 --set-ttl 7 --wrong-seq
+-1 --set-ttl 8 --wrong-chksum
+-1 --set-ttl 8 --wrong-seq
+-1 --set-ttl 10 --wrong-chksum
+-1 --set-ttl 10 --wrong-seq
+-1 --set-ttl 2 --wrong-chksum --wrong-seq
+-1 --set-ttl 4 --wrong-chksum --wrong-seq
+-1 --set-ttl 6 --wrong-chksum --wrong-seq
+-1 --set-ttl 7 --wrong-chksum --wrong-seq
+-1 --set-ttl 8 --wrong-chksum --wrong-seq
+-1 --set-ttl 10 --wrong-chksum --wrong-seq
+-5 --auto-ttl
+-9 --auto-ttl
+-1 --auto-ttl
+-5 --auto-ttl --wrong-chksum
+-5 --auto-ttl --wrong-seq
+-5 --auto-ttl --wrong-chksum --wrong-seq
+-9 --auto-ttl --wrong-chksum
+-9 --auto-ttl --wrong-seq
+-9 --auto-ttl --wrong-chksum --wrong-seq
+-1 --auto-ttl --wrong-chksum
+-1 --auto-ttl --wrong-seq
+-1 --auto-ttl --wrong-chksum --wrong-seq
+--set-ttl 2 --wrong-chksum
+--set-ttl 2 --wrong-seq
+--set-ttl 4 --wrong-chksum
+--set-ttl 4 --wrong-seq
+--set-ttl 6 --wrong-chksum
+--set-ttl 6 --wrong-seq
+--set-ttl 7 --wrong-chksum
+--set-ttl 7 --wrong-seq
+--set-ttl 8 --wrong-chksum
+--set-ttl 8 --wrong-seq
+--set-ttl 10 --wrong-chksum
+--set-ttl 10 --wrong-seq
+--set-ttl 2 --wrong-chksum --wrong-seq
+--set-ttl 4 --wrong-chksum --wrong-seq
+--set-ttl 6 --wrong-chksum --wrong-seq
+--set-ttl 7 --wrong-chksum --wrong-seq
+--set-ttl 8 --wrong-chksum --wrong-seq
+--set-ttl 10 --wrong-chksum --wrong-seq
