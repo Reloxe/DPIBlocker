@@ -50,7 +50,7 @@ DPI Blocker tamamen yasal bir uygulamadır. Uygulama, yalnızca yasal web sitele
 
 ## 📝 Lisans
 
-Bu proje özel lisans altındadır. Tüm hakları saklıdır.
+Bu proje Açık kaynaklıdır katkı yapabilirsiniz.
 
 ## 🤝 Katkıda Bulunma
 
