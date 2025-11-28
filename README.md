@@ -5,6 +5,8 @@ DPI (Deep Packet Inspection) sistemini kullanan erişim engelli sitelere güvenl
 ## 🚀 Özellikler
 
 - **Otomatik Ayar Bulma**: İnternet servis sağlayıcınızın DPI ayarlarını otomatik olarak tespit eder ve en uygun bypass yöntemini seçer
+- **Güvenli DNS**: Uygulamamızda sadece güvenilir dns sağlayıcıları kullanılır. Varsayılan goodbyedpi gibi programlarda kendinizde görebilirsinizki dns sunucuları farklı şeylerdir.
+- **Hız Düşürmez**: Bu tür uygulamalar internet hızınızı zaten düşürmez. Fakat varsayılan olarak indirirseniz bir çoğunun içindeki dns sunucuları garip ip ler olacağı için alan adı çözümleme sırasında yani bir internet sitesine ilk girişte yavaşlıklar yaşarsınız.
 - **Tüm Servis Sağlayıcılarda Test Edildi**: Türkiye'deki tüm büyük internet servis sağlayıcılarında test edilmiş ve çalıştığı doğrulanmıştır
 - **Kolay Kullanım**: Tek tıkla çalışır, karmaşık ayarlar gerektirmez
 - **Güvenli**: Tüm internet trafiğiniz şifrelenir ve güvende kalır
