@@ -13,7 +13,7 @@ DPI (Deep Packet Inspection) sistemini kullanan erişim engelli sitelere güvenl
 
 ## 📋 Gereksinimler
 
-- Windows 7 veya üzeri
+- Windows 10 veya üzeri
 - İnternet bağlantısı
 - Yönetici yetkileri (ilk çalıştırmada)
 
