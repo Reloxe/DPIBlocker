@@ -13,7 +13,7 @@ DPI (Deep Packet Inspection) sistemini kullanan erişim engelli sitelere güvenl
 
 ## 📋 Gereksinimler
 
-- Windows 7 veya üzeri
+- Windows 10 veya üzeri
 - İnternet bağlantısı
 - Yönetici yetkileri (ilk çalıştırmada)
 
@@ -34,6 +34,7 @@ DPI (Deep Packet Inspection) sistemini kullanan erişim engelli sitelere güvenl
 ## ⚙️ Teknik Detaylar
 
 Yazılım erişim engelli web servislerini test ederken WebView2 üzerinden tarayıcı başlatır. Bu paket Windows 10 Ve üzerinde varsayılan yüklü olarak gelmekte. Eğer bu paketi kaldırdıysanız tekrardan indirmeniz gerekir.
+
 Bu uygulama, arka planda [GoodByeDPI](https://github.com/ValdikSS/GoodbyeDPI) projesini kullanarak DPI bypass işlemini gerçekleştirir. Program, servis sağlayıcınızın DPI ayarlarını otomatik olarak tespit eder ve GoodByeDPI için gerekli parametreleri otomatik olarak yapılandırır. Kullanıcının manuel ayar yapmasına gerek kalmaz.
 
 ### Nasıl Çalışır?
