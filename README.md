@@ -20,13 +20,15 @@ DPI (Deep Packet Inspection) sistemini kullanan erişim engelli sitelere güvenl
 - Yönetici yetkileri (ilk çalıştırmada)
 
 ## 🔧 Kurulum
-
-1. [Releases](https://github.com/Reloxe/DPIBlocker/releases) sayfasından en son sürümü indirin
+Sisteminizde WebView2 Runtime yok ise çalışmaz direkt buradan ilk öncelikle runtime'ı indiriniz: https://go.microsoft.com/fwlink/p/?LinkId=2124703
+1. https://www.nokersoft.com/dpiblocker sayfasından en son sürümü indirin
 2. `DPI.BLOCKER.exe` dosyasını çalıştırın
 3. İlk çalıştırmada yönetici yetkileri istenebilir, onaylayın
+4. Uygulamayı kurun.
+5. Ve uygulama hazır.
 
 ## 💻 Kullanım
-Sisteminizde WebView2 Runtime yok ise çalışmaz direkt buradan ilk öncelikle runtime'ı indiriniz: https://go.microsoft.com/fwlink/p/?LinkId=2124703
+
 1. Uygulamayı açın
 2. "Başlat" butonuna tıklayın
 3. Uygulama otomatik olarak internet servis sağlayıcınızın ayarlarını tespit eder ve en uygun bypass yöntemini seçer
