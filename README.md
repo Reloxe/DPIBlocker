@@ -26,7 +26,7 @@ DPI (Deep Packet Inspection) sistemini kullanan erişim engelli sitelere güvenl
 3. İlk çalıştırmada yönetici yetkileri istenebilir, onaylayın
 
 ## 💻 Kullanım
-
+Sisteminizde WebView2 Runtime yok ise çalışmaz direkt buradan ilk öncelikle runtime'ı indiriniz: https://go.microsoft.com/fwlink/p/?LinkId=2124703
 1. Uygulamayı açın
 2. "Başlat" butonuna tıklayın
 3. Uygulama otomatik olarak internet servis sağlayıcınızın ayarlarını tespit eder ve en uygun bypass yöntemini seçer
